@@ -1,0 +1,43 @@
+﻿
+        .Grid td
+        {
+            background-color: White;
+            color: black;
+            font-size: 10pt;
+            line-height: 200%;
+        }
+        .Grid th
+        {
+            background-color: #5691c8;
+            color: White;
+            font-size: 10pt;
+            line-height: 200%;
+        }
+        .ChildGrid td
+        {
+            background-color: #eee !important;
+            color: black;
+            font-size: 10pt;
+            line-height: 200%;
+        }
+        .ChildGrid th
+        {
+            background-color: #6C6C6C !important;
+            color: White;
+            font-size: 10pt;
+            line-height: 200%;
+        }
+        .Nested_ChildGrid td
+        {
+            background-color: #fff !important;
+            color: black;
+            font-size: 10pt;
+            line-height: 200%;
+        }
+        .Nested_ChildGrid th
+        {
+            background-color: #2B579A !important;
+            color: White;
+            font-size: 10pt;
+            line-height: 200%;
+        }

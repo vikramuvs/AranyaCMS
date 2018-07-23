@@ -1,0 +1,48 @@
+﻿#panel, #Circle {
+    padding: 5px;
+    text-align: center;
+
+    
+}
+
+#panel {
+
+    display: none;
+
+}
+
+#pnldivision, #Div {
+    padding: 5px;
+    text-align: center;
+
+
+}
+
+#pnldivision {
+
+    display: none;
+  
+}
+#pnlSubDiv, #SubDiv {
+    padding: 5px;
+    text-align: center;
+
+}
+
+#pnlSubDiv {
+
+    display: none;
+   
+}
+
+#pnlRange, #Range {
+    padding: 5px;
+    text-align: center;
+   
+}
+
+#pnlRange {
+
+    display: none;
+   
+}

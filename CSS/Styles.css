@@ -1,0 +1,335 @@
+﻿
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	position: relative;
+	min-height: 100%;
+}
+.labelcss
+{
+	font-family: Century Gothic;
+	font-size: 13pt;
+	color: #25383C;
+    vertical-align:top;
+    font-weight:normal;
+}
+
+.DivFormHeader {
+    padding: 0px;
+    margin: 10px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+    .DivFormHeader-td {
+        vertical-align: top;
+        font-size: 11pt;
+      padding: 20px 4px 20px 10px;
+    }
+    .DivFormHeader-th {
+        height: 50px;
+        font-size: 16pt;
+        font-weight: bold;
+        color: white;
+        background: #27ae60;
+        font-family: 'Century Gothic';
+        text-align: left;
+        padding-left: 8px;
+    }
+
+    .DivForm {
+    font-size: 13px;
+    margin: 5px;
+    background: #fff;
+  
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+}
+
+
+    .DivForm td {
+        vertical-align: top;
+        padding: 12px 4px 15px 10px;
+        font-size: 11pt;
+        text-align: center;
+    }
+    .DivForm th {
+        height: 50px;
+        font-size: 13pt;
+        font-weight: bold;
+        color: white;
+        background: #27ae60;
+        font-family: 'Century Gothic';
+         padding-left: 8px;
+    }
+
+
+.anchor_n {
+    font-family: Century Gothic;
+    font-size: 13pt;
+    color: #25383C;
+    font-weight: normal;
+    position: relative;
+    pointer-events: none;
+    left: 68px;
+    margin-bottom:3px;
+  
+  text-align: left;
+    display: block;
+}
+
+.anchor {
+    font-family: Century Gothic;
+    font-size: 13pt;
+    color: #25383C;
+    font-weight: normal;
+    position: relative;
+    pointer-events: none;
+    left: 68px;
+    margin-bottom:3px;
+  
+  text-align: left;
+    display: block;
+}
+.anchor:after {
+    
+    content:"\00a0 ""*" ;
+    color:red  
+}
+.DataContainer {
+    position: relative;
+   
+    text-align:center;
+    display:block;
+  
+}
+
+
+.DataFormHeader {
+    padding: 0px;
+    margin: 10px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+    .DataFormHeader td {
+        vertical-align: top;
+        font-size: 11pt;
+      padding: 20px 4px 20px 10px;
+    }
+    .DataFormHeader th {
+        height: 50px;
+        font-size: 16pt;
+        font-weight: bold;
+        color: white;
+        background: #27ae60;
+        font-family: 'Century Gothic';
+        text-align: left;
+        padding-left: 8px;
+    }
+.DataForm {
+    font-size: 13px;
+    margin: 5px;
+    background: #fff;
+  
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+}
+
+
+    .DataForm td {
+        vertical-align: top;
+        padding: 12px 4px 15px 10px;
+        font-size: 11pt;
+        text-align: center;
+    }
+    .DataForm th {
+        height: 50px;
+        font-size: 13pt;
+        font-weight: bold;
+        color: white;
+        background: #27ae60;
+        font-family: 'Century Gothic';
+         padding-left: 8px;
+    }
+
+    .DataForm th label
+{
+	font-family: Century Gothic;
+	font-size: 16pt;
+	color: white;
+    vertical-align:top;
+    font-weight:bold;
+}
+.textarea
+{
+
+  background: #F2F2F2;
+  height:45px;
+  /*margin-left:66px;*/
+  padding: 8px;
+  top: 6px;
+  box-sizing: border-box;
+  font-size: 12pt;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-family:'Century Gothic';
+  position: relative;
+  display: block;
+  
+}
+
+.DropdownCss
+{
+	font-size: 12pt;
+	 padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	overflow: hidden;
+	position: relative;
+    background: #F2F2F2;
+	text-align: left;
+	font-family: Century Gothic;
+	height: 45px;
+     /*margin-left:14px;*/
+       top: 6px;
+	
+}
+
+.RadioCss
+{
+	font-size: 12pt;
+
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	overflow: hidden;
+	position: relative;
+    background: #F2F2F2;
+	text-align: left;
+	font-family: Century Gothic;
+	height: 25px;
+       top: 6px;
+	  margin-left:65px;
+}
+
+
+.mGrid
+{
+	background-color: #fff;
+	/*margin: 3px 0 8px 0;*/
+	border: solid 1px #525252;
+	border-collapse: collapse;
+    width:100%
+}
+
+	.mGrid td
+	{
+		padding: 8px;
+		border: solid 1px #ccc;
+		color: #25383C;
+		font-family: Century Gothic;
+        text-transform:uppercase;
+        font-size:12pt;
+	}
+
+	.mGrid th
+	{
+        height:35px;
+		    text-transform:uppercase;
+		color: #fff;
+		background: #008080;
+	
+		font-size: 12pt;
+		font-family: Century Gothic;
+	}
+    .mGridTextBox {
+        outline: 0;
+        background: #F2F2F2;
+        height: 35px;
+        border: 0;
+        margin-left: 0px;
+        padding: 8px;
+        top: 0px;
+        box-sizing: border-box;
+        font-size: 12pt;
+        border: 1px solid #ccc;
+        font-family: 'Century Gothic';
+        position: relative;
+        display: block;
+        overflow:hidden;
+    
+    }
+	.mGrid .pgr
+	{
+		background: #25383C url(grd_pgr.png) repeat-x top;
+	}
+
+	
+
+
+.footer
+{
+    float:left;
+	position: fixed;
+
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0px;
+	width: 100%;
+	text-align: left;
+	background-color: #003366;
+	color: #FFFFFF;
+	font-family: Century Gothic;
+
+
+    height:50px;
+}
+
+.footer a
+
+{
+
+	font-family: 'Lucida Sans';
+	font-size: 11pt;
+    	margin-left:10px;
+  
+}
+
+.Validator {
+    font-family: Century Gothic;
+    font-size: 13pt;
+    color: #25383C;
+    font-weight: normal;
+    position: relative;
+    pointer-events: none;
+    left: 68px;
+    margin-bottom:3px;
+  
+  text-align: left;
+    display: block;
+}
